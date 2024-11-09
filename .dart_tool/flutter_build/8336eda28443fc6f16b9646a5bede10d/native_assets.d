@@ -1,0 +1,1 @@
+ E:\\dkiragu\\flutter\\technopriseglobal\\flutter_test\\android\\technoprise\\.dart_tool\\flutter_build\\8336eda28443fc6f16b9646a5bede10d\\native_assets.yaml: 
