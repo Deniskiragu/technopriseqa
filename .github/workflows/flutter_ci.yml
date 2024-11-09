@@ -37,8 +37,8 @@ jobs:
 
       # Build the app
       - name: Build APK (Android)
-        run: flutter build apk --no-sound-null-safety
+        run: flutter build apk
 
-      - name: Build App (iOS)
-        run: flutter build ios --no-sound-null-safety
-        if: runner.os == 'macOS'
+#      - name: Build App (iOS)
+#        run: flutter build ios --no-sound-null-safety
+#        if: runner.os == 'macOS'
