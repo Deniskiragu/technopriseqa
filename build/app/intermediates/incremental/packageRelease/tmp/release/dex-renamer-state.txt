@@ -1,4 +1,4 @@
-#Sat Nov 09 13:01:03 EAT 2024
+#Sat Nov 09 14:05:38 EAT 2024
 base.0=E\:\\dkiragu\\flutter\\technopriseglobal\\flutter_test\\android\\technoprise\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

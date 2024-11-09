@@ -4,19 +4,6 @@
       jars="E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\build\app\intermediates\flutter\release\libs.jar"
       resolved="__local_aars__:E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
   <library
-      name="E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\android@@:integration_test::release"
-      jars="E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\build\integration_test\.transforms\88233076fb744cdc30abb12fecd55dd5\transformed\out\jars\classes.jar;E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\build\integration_test\.transforms\88233076fb744cdc30abb12fecd55dd5\transformed\out\jars\libs\R.jar"
-      resolved="dev.flutter.plugins.integration_test:integration_test:unspecified"
-      folder="E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\build\integration_test\.transforms\88233076fb744cdc30abb12fecd55dd5\transformed\out"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="io.flutter:flutter_embedding_release:1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a@jar"
       jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.flutter\flutter_embedding_release\1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a\3aa8bc7a64fdc57dbcfbbe5f1592ea9b8e0df5b3\flutter_embedding_release-1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a.jar"
       resolved="io.flutter:flutter_embedding_release:1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"/>
@@ -71,57 +58,21 @@
       jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.flutter\x86_64_release\1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a\62fe9585521d9bd30dd719e9e61b920f6344e7f8\x86_64_release-1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a.jar"
       resolved="io.flutter:x86_64_release:1.0.0-235db911ba279722f5e685f38b0ed30fa7e8570a"/>
   <library
-      name="androidx.test:rules:1.2.0@aar"
-      jars="C:\Users\Administrator\.gradle\caches\transforms-3\3f69bab7c1dfa13a8d8da074dccfbaf8\transformed\rules-1.2.0\jars\classes.jar"
-      resolved="androidx.test:rules:1.2.0"
-      folder="C:\Users\Administrator\.gradle\caches\transforms-3\3f69bab7c1dfa13a8d8da074dccfbaf8\transformed\rules-1.2.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar"
+      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.7.10\1ef73fee66f45d52c67e2aca12fd945dbe0659bf\kotlin-stdlib-jdk7-1.7.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"/>
   <library
-      name="androidx.test.espresso:espresso-core:3.2.0@aar"
-      jars="C:\Users\Administrator\.gradle\caches\transforms-3\3a2ea3eb4240c3751d2f1d0b9442876f\transformed\espresso-core-3.2.0\jars\classes.jar"
-      resolved="androidx.test.espresso:espresso-core:3.2.0"
-      folder="C:\Users\Administrator\.gradle\caches\transforms-3\3a2ea3eb4240c3751d2f1d0b9442876f\transformed\espresso-core-3.2.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
+      name="org.jetbrains.kotlin:kotlin-stdlib:1.7.10@jar"
+      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.7.10\d2abf9e77736acc4450dc4a3f707fa2c10f5099d\kotlin-stdlib-1.7.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib:1.7.10"/>
   <library
-      name="androidx.test:runner:1.2.0@aar"
-      jars="C:\Users\Administrator\.gradle\caches\transforms-3\431652c7fa7985243044bee15e7277f4\transformed\runner-1.2.0\jars\classes.jar"
-      resolved="androidx.test:runner:1.2.0"
-      folder="C:\Users\Administrator\.gradle\caches\transforms-3\431652c7fa7985243044bee15e7277f4\transformed\runner-1.2.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
+      name="org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10@jar"
+      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.7.10\bac80c520d0a9e3f3673bc2658c6ed02ef45a76a\kotlin-stdlib-common-1.7.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10"/>
   <library
-      name="androidx.test:monitor:1.2.0@aar"
-      jars="C:\Users\Administrator\.gradle\caches\transforms-3\960713e16145f95973366277e1bae539\transformed\monitor-1.2.0\jars\classes.jar"
-      resolved="androidx.test:monitor:1.2.0"
-      folder="C:\Users\Administrator\.gradle\caches\transforms-3\960713e16145f95973366277e1bae539\transformed\monitor-1.2.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
+      name="org.jetbrains:annotations:13.0@jar"
+      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar"
+      resolved="org.jetbrains:annotations:13.0"/>
   <library
       name="androidx.lifecycle:lifecycle-common-java8:2.2.0@jar"
       jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common-java8\2.2.0\cd3478503da69b1a7e0319bd2d1389943db9b364\lifecycle-common-java8-2.2.0.jar"
@@ -312,51 +263,6 @@
       jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\androidx.annotation\annotation\1.2.0\57136ff68ee784c6e19db34ed4a175338fadfde1\annotation-1.2.0.jar"
       resolved="androidx.annotation:annotation:1.2.0"/>
   <library
-      name="junit:junit:4.12@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
-      resolved="junit:junit:4.12"/>
-  <library
-      name="org.hamcrest:hamcrest-integration:1.3@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-integration\1.3\5de0c73fef18917cd85d0ab70bb23818685e4dfd\hamcrest-integration-1.3.jar"
-      resolved="org.hamcrest:hamcrest-integration:1.3"/>
-  <library
-      name="org.hamcrest:hamcrest-library:1.3@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar"
-      resolved="org.hamcrest:hamcrest-library:1.3"/>
-  <library
-      name="org.hamcrest:hamcrest-core:1.3@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
-      resolved="org.hamcrest:hamcrest-core:1.3"/>
-  <library
-      name="net.sf.kxml:kxml2:2.3.0@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.sf.kxml\kxml2\2.3.0\ccbc77a5fd907ef863c29f3596c6f54ffa4e9442\kxml2-2.3.0.jar"
-      resolved="net.sf.kxml:kxml2:2.3.0"/>
-  <library
-      name="androidx.test.espresso:espresso-idling-resource:3.2.0@aar"
-      jars="C:\Users\Administrator\.gradle\caches\transforms-3\83c6b1d4f6a7d5cf847fbfa67c0e2468\transformed\espresso-idling-resource-3.2.0\jars\classes.jar"
-      resolved="androidx.test.espresso:espresso-idling-resource:3.2.0"
-      folder="C:\Users\Administrator\.gradle\caches\transforms-3\83c6b1d4f6a7d5cf847fbfa67c0e2468\transformed\espresso-idling-resource-3.2.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.squareup:javawriter:2.1.1@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.1.1\67ff45d9ae02e583d0f9b3432a5ebbe05c30c966\javawriter-2.1.1.jar"
-      resolved="com.squareup:javawriter:2.1.1"/>
-  <library
-      name="javax.inject:javax.inject:1@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-      resolved="javax.inject:javax.inject:1"/>
-  <library
-      name="com.google.code.findbugs:jsr305:3.0.2@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar"
-      resolved="com.google.code.findbugs:jsr305:3.0.2"/>
-  <library
       name="androidx.annotation:annotation-experimental:1.1.0@aar"
       jars="C:\Users\Administrator\.gradle\caches\transforms-3\3d2f03fc996c2e0aa3dee5cfa3002cd1\transformed\jetified-annotation-experimental-1.1.0\jars\classes.jar"
       resolved="androidx.annotation:annotation-experimental:1.1.0"
@@ -382,48 +288,4 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
-  <library
-      name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.7.10\1ef73fee66f45d52c67e2aca12fd945dbe0659bf\kotlin-stdlib-jdk7-1.7.10.jar"
-      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"/>
-  <library
-      name="org.jetbrains.kotlin:kotlin-stdlib:1.7.10@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.7.10\d2abf9e77736acc4450dc4a3f707fa2c10f5099d\kotlin-stdlib-1.7.10.jar"
-      resolved="org.jetbrains.kotlin:kotlin-stdlib:1.7.10"/>
-  <library
-      name="org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.7.10\bac80c520d0a9e3f3673bc2658c6ed02ef45a76a\kotlin-stdlib-common-1.7.10.jar"
-      resolved="org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10"/>
-  <library
-      name="org.jetbrains:annotations:13.0@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar"
-      resolved="org.jetbrains:annotations:13.0"/>
-  <library
-      name="com.google.guava:guava:28.1-android@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\28.1-android\c2526f8fad32a65a6d7032dd8e9524eb276b108b\guava-28.1-android.jar"
-      resolved="com.google.guava:guava:28.1-android"/>
-  <library
-      name="com.google.guava:failureaccess:1.0.1@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar"
-      resolved="com.google.guava:failureaccess:1.0.1"/>
-  <library
-      name="com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
-      resolved="com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"/>
-  <library
-      name="org.checkerframework:checker-compat-qual:2.5.5@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-compat-qual\2.5.5\435dc33e3019c9f019e15f01aa111de9d6b2b79c\checker-compat-qual-2.5.5.jar"
-      resolved="org.checkerframework:checker-compat-qual:2.5.5"/>
-  <library
-      name="com.google.errorprone:error_prone_annotations:2.3.2@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.3.2\d1a0c5032570e0f64be6b4d9c90cdeb103129029\error_prone_annotations-2.3.2.jar"
-      resolved="com.google.errorprone:error_prone_annotations:2.3.2"/>
-  <library
-      name="com.google.j2objc:j2objc-annotations:1.3@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar"
-      resolved="com.google.j2objc:j2objc-annotations:1.3"/>
-  <library
-      name="org.codehaus.mojo:animal-sniffer-annotations:1.18@jar"
-      jars="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.18\f7aa683ea79dc6681ee9fb95756c999acbb62f5d\animal-sniffer-annotations-1.18.jar"
-      resolved="org.codehaus.mojo:animal-sniffer-annotations:1.18"/>
 </libraries>

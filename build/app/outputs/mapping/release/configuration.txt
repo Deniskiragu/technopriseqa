@@ -133,13 +133,6 @@
 -keep class com.example.technoprise.MainActivity { <init>(); }
 
 # End of content from E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
-# The proguard configuration file for the following section is E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\build\integration_test\intermediates\consumer_proguard_dir\release\lib0\proguard.txt
-# For some reason org.kxml2.io.KXmlParser and org.kxml2.io.KXmlSerializer
-# are missing and not marked correctly by dependencies.
-# Possibly related to https://github.com/flutter/flutter/issues/56591
-# See https://github.com/flutter/flutter/issues/127388 for more context.
--dontwarn org.kxml2.io.KXmlParser**,org.kxml2.io.KXmlSerializer**
-# End of content from E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\build\integration_test\intermediates\consumer_proguard_dir\release\lib0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\Administrator\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
@@ -223,70 +216,6 @@
 -dontwarn sun.misc.Signal
 
 # End of content from C:\Users\Administrator\.gradle\caches\transforms-3\997a860702f11b9a0ba20df2cb624b18\transformed\rules\lib\META-INF\proguard\coroutines.pro
-# The proguard configuration file for the following section is C:\Users\Administrator\.gradle\caches\transforms-3\3f69bab7c1dfa13a8d8da074dccfbaf8\transformed\rules-1.2.0\proguard.txt
-# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
--dontwarn androidx.test.runner.MonitoringInstrumentation
-
-# for 'library class android.test.* extends or implements program class'
--dontwarn android.test.**
-
-# End of content from C:\Users\Administrator\.gradle\caches\transforms-3\3f69bab7c1dfa13a8d8da074dccfbaf8\transformed\rules-1.2.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Administrator\.gradle\caches\transforms-3\3a2ea3eb4240c3751d2f1d0b9442876f\transformed\espresso-core-3.2.0\proguard.txt
-# Common proguard flags for all the espresso libraries.
-
-# ignore 'cannot find java.beans and mockito integration' warnings
--dontwarn org.hamcrest.**
-
-# ignore 'can't find referenced class sun.misc.Unsafe' from guava
--dontwarn androidx.test.espresso.core.deps.guava.**
-
-# ignore 'can't find referenced class javax.lang.model.element.Modifier'
--dontwarn com.squareup.javawriter.JavaWriter
-
-# ignore 'can't find referenced class sun.misc.Unsafe, libcore.io.Memory' from protobuf
--dontwarn androidx.test.espresso.core.deps.protobuf.**
-
-# ignore 'can't find referenced method android.app.Instrumentation' from android.jar
--dontwarn androidx.test.runner.MonitoringInstrumentation
-
-# End of content from C:\Users\Administrator\.gradle\caches\transforms-3\3a2ea3eb4240c3751d2f1d0b9442876f\transformed\espresso-core-3.2.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Administrator\.gradle\caches\transforms-3\431652c7fa7985243044bee15e7277f4\transformed\runner-1.2.0\proguard.txt
-# Proguard flags for the AndroidJUnitRunner library.
-
-# avoid obfuscation of the instrumentation runners and orchestrator
--keepnames class androidx.test.**
-
-# Annotation classes accessed via reflection
--keep class androidx.test.annotation.** { *; }
-
-# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
--dontwarn androidx.test.runner.MonitoringInstrumentation
-
-# for 'library class android.test.* extends or implements program class'
--dontwarn android.test.**
-
-# for 'can't find referenced class java.lang.management.RuntimeMXBean'
--dontwarn org.junit.rules.DisableOnDebug
-
-# for 'can't find referenced class java.lang.management.ThreadMXBean'
--dontwarn org.junit.internal.runners.statements.FailOnTimeout
-
-# for 'can't find referenced class java.beans.**, easymock, etc
--dontwarn org.hamcrest.**
-# End of content from C:\Users\Administrator\.gradle\caches\transforms-3\431652c7fa7985243044bee15e7277f4\transformed\runner-1.2.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Administrator\.gradle\caches\transforms-3\960713e16145f95973366277e1bae539\transformed\monitor-1.2.0\proguard.txt
-# Proguard flags for the AndroidJUnitRunner library.
-
-# avoid obfuscation of the instrumentation runners and orchestrator
--keepnames class androidx.test.**
-
-# Annotation classes accessed via reflection
--keep class androidx.test.annotation.** { *; }
-
-# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
--dontwarn androidx.test.runner.MonitoringInstrumentation
-
-# End of content from C:\Users\Administrator\.gradle\caches\transforms-3\960713e16145f95973366277e1bae539\transformed\monitor-1.2.0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\Administrator\.gradle\caches\transforms-3\284a410c767ad6c7a2b0ffc8d8d85981\transformed\core-1.6.0\proguard.txt
 # Never inline methods, but allow shrinking and obfuscation.
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
