@@ -38,7 +38,7 @@ jobs:
 
       # Denis kiragu- Run tests
       - name: Run integration tests
-        run: flutter test integration_test/
+        run: flutter test integration_test/ --no-pub
 
       # Denis kiragu- Clean the build to clear cached paths
       - name: Clean Flutter build
