@@ -14,6 +14,7 @@ void main() {
     await tester.tap(find.text('New'));
     await tester.pumpAndSettle();
 
+
     // Enter title and description
     await tester.enterText(find.widgetWithText(TextFormField, 'Enter a title for the item'), 'Denis Kiragu');
     await tester.enterText(find.widgetWithText(TextFormField, 'Enter a description for the item'), 'This is an integration test for adding an item');
