@@ -21,8 +21,13 @@ ADDED from E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise
 INJECTED from E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\android\app\src\main\AndroidManifest.xml:1:1-45:12
 INJECTED from E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\android\app\src\main\AndroidManifest.xml:1:1-45:12
 INJECTED from E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\android\app\src\main\AndroidManifest.xml:1:1-45:12
+MERGED from [:integration_test] E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\build\integration_test\intermediates\merged_manifest\release\AndroidManifest.xml:7:1-14:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\2a215381204751055df81b6269e717b7\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.test:rules:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\3f69bab7c1dfa13a8d8da074dccfbaf8\transformed\rules-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\3a2ea3eb4240c3751d2f1d0b9442876f\transformed\espresso-core-3.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:runner:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\431652c7fa7985243044bee15e7277f4\transformed\runner-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:monitor:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\960713e16145f95973366277e1bae539\transformed\monitor-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\2c78d49fbcc625202f50a9334fbc9153\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\eeb3b3d28863e46e8405d58b4e4ce9b4\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\3dd24de0bfb0a58b7b0437cba93312a0\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -37,6 +42,7 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Administrator\.gradle\cach
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\6215b4bd78f4714ee01c803dc871408f\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-3\17b52f3ce5be01faa0d2efabbb4c4451\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\1df962ed8245cc6ecc6dae80a3756f32\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\83c6b1d4f6a7d5cf847fbfa67c0e2468\transformed\espresso-idling-resource-3.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\3d2f03fc996c2e0aa3dee5cfa3002cd1\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 INJECTED from E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\android\app\src\main\AndroidManifest.xml:1:1-45:12
 INJECTED from E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\android\app\src\main\AndroidManifest.xml:1:1-45:12
@@ -71,10 +77,20 @@ uses-sdk
 INJECTED from E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\android\app\src\main\AndroidManifest.xml
 INJECTED from E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\android\app\src\main\AndroidManifest.xml
+MERGED from [:integration_test] E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\build\integration_test\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-12:41
+MERGED from [:integration_test] E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\build\integration_test\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-12:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\2a215381204751055df81b6269e717b7\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\2a215381204751055df81b6269e717b7\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:rules:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\3f69bab7c1dfa13a8d8da074dccfbaf8\transformed\rules-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:rules:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\3f69bab7c1dfa13a8d8da074dccfbaf8\transformed\rules-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\3a2ea3eb4240c3751d2f1d0b9442876f\transformed\espresso-core-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\3a2ea3eb4240c3751d2f1d0b9442876f\transformed\espresso-core-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\431652c7fa7985243044bee15e7277f4\transformed\runner-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\431652c7fa7985243044bee15e7277f4\transformed\runner-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\960713e16145f95973366277e1bae539\transformed\monitor-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\960713e16145f95973366277e1bae539\transformed\monitor-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\2c78d49fbcc625202f50a9334fbc9153\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\2c78d49fbcc625202f50a9334fbc9153\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\eeb3b3d28863e46e8405d58b4e4ce9b4\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
@@ -103,6 +119,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ad
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-3\17b52f3ce5be01faa0d2efabbb4c4451\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\1df962ed8245cc6ecc6dae80a3756f32\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\1df962ed8245cc6ecc6dae80a3756f32\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\83c6b1d4f6a7d5cf847fbfa67c0e2468\transformed\espresso-idling-resource-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\83c6b1d4f6a7d5cf847fbfa67c0e2468\transformed\espresso-idling-resource-3.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\3d2f03fc996c2e0aa3dee5cfa3002cd1\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\3d2f03fc996c2e0aa3dee5cfa3002cd1\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 INJECTED from E:\dkiragu\flutter\technopriseglobal\flutter_test\android\technoprise\android\app\src\main\AndroidManifest.xml

@@ -1,35 +1,43 @@
-name: Flutter CI
+name: Flutter CI/CD Pipeline
 
 on:
   push:
     branches:
-      - main
-      - develop
+      - master
   pull_request:
     branches:
-      - main
-      - develop
+      - master
 
 jobs:
   build:
-    name: Build and Test Flutter Application
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the code
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      # Set up Flutter
-      - name: Setup Flutter
+      # Install Flutter SDK
+      - name: Install Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.3.0' # Set your Flutter version
+          flutter-version: 'stable'
 
-      # Install dependencies
-      - name: Install Dependencies
+      # Flutter dependencies
+      - name: Install dependencies
         run: flutter pub get
 
+      # Run linting
+      - name: Lint code
+        run: flutter analyze
+
       # Run tests
-      - name: Run Flutter Tests
+      - name: Run tests
         run: flutter test
+
+      # Build the app
+      - name: Build APK (Android)
+        run: flutter build apk --no-sound-null-safety
+
+      - name: Build App (iOS)
+        run: flutter build ios --no-sound-null-safety
+        if: runner.os == 'macOS'
