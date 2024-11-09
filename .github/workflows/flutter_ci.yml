@@ -13,42 +13,42 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
+      # Denis kiragu- Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Set up Android SDK path for Linux environment
+      # Denis kiragu- Set up Android SDK path for Linux environment
       - name: Configure Android SDK path
         run: echo "sdk.dir=/usr/local/lib/android/sdk" > $GITHUB_WORKSPACE/android/local.properties
 
-      # Install Flutter SDK
+      # Denis kiragu- Install Flutter SDK
       - name: Install Flutter
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.22.3'
           channel: 'stable'
 
-      # Flutter dependencies
+      # Denis kiragu- Flutter dependencies
       - name: Install dependencies
         run: flutter pub get
 
-      # Run linting
+      # Denis kiragu- Run linting
       - name: Lint code
         run: flutter analyze
 
-      # Run tests
+      # Denis kiragu- Run tests
       - name: Run tests
         run: flutter test
 
-      # Clean the build to clear cached paths
+      # Denis kiragu- Clean the build to clear cached paths
       - name: Clean Flutter build
         run: flutter clean
 
-      # Build the APK for Android
+      # Denis kiragu- Build the APK for Android
       - name: Build APK (Android)
         run: flutter build apk
 
-
+#  Denis kiragu-
 #      - name: Build App (iOS)
 #        run: flutter build ios --no-sound-null-safety
 #        if: runner.os == 'macOS'
