@@ -74,22 +74,10 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "file",
-      "rootUri": "file:///C:/Users/Administrator/AppData/Local/Pub/Cache/hosted/pub.dev/file-7.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "flutter",
       "rootUri": "file:///E:/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.3"
-    },
-    {
-      "name": "flutter_driver",
-      "rootUri": "file:///E:/flutter/packages/flutter_driver",
-      "packageUri": "lib/",
-      "languageVersion": "3.2"
     },
     {
       "name": "flutter_launcher_icons",
@@ -110,22 +98,10 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "fuchsia_remote_debug_protocol",
-      "rootUri": "file:///E:/flutter/packages/fuchsia_remote_debug_protocol",
-      "packageUri": "lib/",
-      "languageVersion": "3.2"
-    },
-    {
       "name": "image",
       "rootUri": "file:///C:/Users/Administrator/AppData/Local/Pub/Cache/hosted/pub.dev/image-4.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.15"
-    },
-    {
-      "name": "integration_test",
-      "rootUri": "file:///E:/flutter/packages/integration_test",
-      "packageUri": "lib/",
-      "languageVersion": "3.2"
     },
     {
       "name": "json_annotation",
@@ -188,18 +164,6 @@
       "languageVersion": "3.2"
     },
     {
-      "name": "platform",
-      "rootUri": "file:///C:/Users/Administrator/AppData/Local/Pub/Cache/hosted/pub.dev/platform-3.1.4",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "process",
-      "rootUri": "file:///C:/Users/Administrator/AppData/Local/Pub/Cache/hosted/pub.dev/process-5.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "sky_engine",
       "rootUri": "file:///E:/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -228,12 +192,6 @@
       "rootUri": "file:///C:/Users/Administrator/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
-    },
-    {
-      "name": "sync_http",
-      "rootUri": "file:///C:/Users/Administrator/AppData/Local/Pub/Cache/hosted/pub.dev/sync_http-0.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "term_glyph",
@@ -266,12 +224,6 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "webdriver",
-      "rootUri": "file:///C:/Users/Administrator/AppData/Local/Pub/Cache/hosted/pub.dev/webdriver-3.0.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
       "name": "xml",
       "rootUri": "file:///C:/Users/Administrator/AppData/Local/Pub/Cache/hosted/pub.dev/xml-6.5.0",
       "packageUri": "lib/",
@@ -290,7 +242,7 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-11-08T17:09:45.083753Z",
+  "generated": "2024-11-09T10:19:23.291822Z",
   "generator": "pub",
   "generatorVersion": "3.4.4",
   "flutterRoot": "file:///E:/flutter",
